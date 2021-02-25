@@ -3,8 +3,8 @@ import { Button } from './components/Button'
 function App() {
   return (
     <div>
-      <Button />
-      <Button />
+      <Button color="red">Botão 1</Button>
+      <Button color="blue">Botão 2</Button>
     </div>
   );
 }
